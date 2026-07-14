@@ -1303,3 +1303,103 @@ padding:10px 18px;
 }
 
 }
+/* Mobile Responsive Design */
+
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    /* Navbar */
+    nav,
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Hero Section */
+    .hero,
+    .banner {
+        height: auto;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .hero h1,
+    .banner h1 {
+        font-size: 32px;
+    }
+
+    .hero p,
+    .banner p {
+        font-size: 16px;
+    }
+
+    /* Images */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Cards */
+    .cards,
+    .card-container,
+    .features {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    /* Buttons */
+    button,
+    .btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /* Video */
+    video,
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+}
